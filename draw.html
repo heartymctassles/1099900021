@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB_1104</title>
+    <canvas id="myCanvas" width="300" height="400" style="border:1px solid #d3d3d3;">
+        </canvas>
+        
+        <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(132,38);
+        ctx.lineTo(200,70);
+        ctx.stroke();
+        ctx.moveTo(55,38);
+        ctx.lineTo(5,7);
+        ctx.stroke();
+        ctx.moveTo(70,80);
+        ctx.lineTo(50,250);
+        ctx.stroke();
+        ctx.moveTo(120,80);
+        ctx.lineTo(150,250);
+        ctx.stroke();
+
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 60, 80, 0, 2 * Math.PI);
+        ctx.fillStyle = "#ff9989";
+        ctx.fill();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(75, 33, 10, 0, 2 * Math.PI);
+        ctx.fillStyle = "blue";
+        ctx.fill();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(115, 33, 10, 0, 2 * Math.PI);
+        ctx.fillStyle = "red";
+        ctx.fill();
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(95, 55, 25, 0, 1 * Math.PI);
+        ctx.stroke();
+        </script>
+        
+</head>
+<body>
+    
+</body>
+</html>
